@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>favourite place planner</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" href="css/planner.css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/planner.js"></script>
+    </head>
+    <body>
+
+        <div id='menu'>
+            <button id='add'>add</button>
+            <button id='delete'>delete</button>
+            <button id='save'>save</button>
+            <button id='load'>load</button>
+            <input type="file" id="selectFiles" value="Import" style="display:none"/>
+        </div>
+        <div id='info'>
+            <input id="location" type="text" placeholder="location"/>
+            <input id="story" type="text" placeholder="story"/>
+        </div>
+        <textarea id="description" type="text" placeholder="description"></textarea>
+</body>
+</html>

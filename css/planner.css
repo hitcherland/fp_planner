@@ -1,0 +1,54 @@
+#description {
+    display: block;
+    width: 98vw;
+    margin: 1vh 1vw;
+    resize: vertical
+}
+
+#menu {
+    float:right;
+}
+#menu, #info {
+    margin: 1vh 1vw 1vh 1vw;
+}
+
+body {
+    /*background-color: #333333;*/
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.option {
+    margin: 1vh 1vw 1vh 1vw;
+    width: 98vw;
+    min-height: 10vh;
+    border: solid black 0.2vw;
+}
+
+.option.selected {
+    border-color: #a00;
+}
+
+
+.option .header {
+    text-align:center;
+    padding: 1vw  1vw 1vw 1vw;
+}
+
+.option .header  *{
+    text-align:center;
+    margin: 0 1vw;
+}
+
+.option .message {
+    width: 95.7vw;
+    margin: 0vw 1vw 1vw 1vw;
+    resize: vertical
+}
+
